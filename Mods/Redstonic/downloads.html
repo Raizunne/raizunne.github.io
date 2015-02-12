@@ -8,11 +8,17 @@
 
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../../css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+    <script src="../../js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+    
+</head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 
-<nav class="navbar navbar-default navbar-fixed-topf">
+<nav class="navbar navbar-default navbar-fixed-topf navbar-inverse navbar-static-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -37,6 +43,8 @@
 			</ul>
 		</li>
 		<li><a href="../../index.html">About</span></a></li>
+        <li><a href="http://youtube.com/RaizunneGaming">Youtube</span></a></li>
+        <li><a href="http://twitch.tv/Raizunne">Twitch</span></a></li>
 	</ul>
 	</div>
   </div><!-- /.container-fluid -->
@@ -49,11 +57,68 @@
 				<h1>Redstonic</h1>
 				<hr>
 				<p>This is the download page for Raizunne's Redstonic mod.</p>
-				<p><h3>Latest Version</h3>
+                <p><b>Redstonic Drills are the main focus of this mod. With these, you can modify your drills however you want. Change its head, body and the energy that the drill has and aud augments to increase the drill capabilities!</b></p>
+                    <div id="myCarousel" class="carousel slide col-md-8 col-md-offset-2" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../../assets/Carousel/Car1.png" alt="Drill Modifier">
+                            <div class="carousel-caption">
+                                <h3>Make your mining better.</h3>
+                                <p>Not just like regular pickaxes, they are better.</p>
+                            </div>    
+                        </div>
+                            
+                        <div class="item">
+                            <img src="../../assets/Carousel/Car4.png" alt="Drill Modifier">
+                            <div class="carousel-caption">
+                                <h3>Modular Drills</h3>
+                                <p>Customize them to your needs.</p>
+                            </div>   
+                        </div>
+
+                        <div class="item">
+                            <img src="../../assets/Carousel/Car2.png" alt="Mine Your Way">
+                            <div class="carousel-caption">
+                                <h3>Mine your way.</h3>
+                                <p>A different and <b>FASTER</b> way to mine.</p>
+                            </div>   
+                        </div>
+
+                        <div class="item">
+                            <img src="../../assets/Carousel/Car3.png" alt="In-Game Manual">
+                            <div class="carousel-caption">
+                                <h3>With in-game manual.</h3>
+                                <p>Specially coded to be intuitive and fast to learn.</p>
+                            </div>   
+                        </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                <br>
+				
 				<!--LATEST VERSION-->
 				<div class="col-md-8">
+                    <p><h3><b>Latest Version</b></h3>
 					<div class="btn-group btn-group-justified" role="group" aria-label="...">
-						<a href="builds/Redstonic-beta-1.jar" target="_blank" class="btn-group btn-group-lg" role="group">
+						<a href="builds/Redstonic-v1.jar" class="btn-group btn-group-lg" role="group">
 							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-download" aria-hidden="true"></span>  
 							Download v1.0</button>
 						</a>
@@ -64,11 +129,28 @@
 							<button type="button" class="btn btn-warning">Changelog</button>
 						</a>
 					</div>
-				</div>
 				<!--END LATEST VERSION-->
-				<br><br><br><hr>
-				<p><h3>Older Versions</h3>
-				None yet.
+                    <br><hr>
+                    <p><h3><b>Old Versions Version</b></h3>
+				</div>
+                
+                <div class="col-md-8">
+                    <h4><b>Beta-1 (For testing only)</b></h4>
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<a href="builds/Redstonic-beta-1.jar" class="btn-group btn-group-lg" role="group">
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-download" aria-hidden="true"></span>  
+							Download beta-1</button>
+						</a>
+						<a class="btn-group btn-group-lg" role="group">
+							<button type="button" class="btn btn-info">1.7.10</button>
+						</a>
+						<a class="btn-group btn-group-lg" role="group">
+							<button type="button" class="btn btn-warning">Changelog</button>
+						</a>
+					</div>
+                    <br>
+				</div>
+                
 			</div>
 		</div>
 	</div>
