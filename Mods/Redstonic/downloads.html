@@ -15,6 +15,14 @@
     
 </head>
 <body>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-59705403-1', 'auto');
+    ga('send', 'pageview');
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 
@@ -115,7 +123,7 @@
                 <br>
 				
 				<!--LATEST VERSION-->
-				<div class="col-md-8">
+				<div class="col-md-8" id="latest">
                     <p><h3><b>Latest Version</b></h3>
 					<div class="btn-group btn-group-justified" role="group" aria-label="...">
 						<a href="builds/Redstonic-v1.jar" class="btn-group btn-group-lg" role="group">
@@ -125,7 +133,7 @@
 						<a class="btn-group btn-group-lg" role="group">
 							<button type="button" class="btn btn-info">1.7.10</button>
 						</a>
-						<a class="btn-group btn-group-lg" role="group">
+						<a href="Changelog.html#1.0" class="btn-group btn-group-lg" role="group">
 							<button type="button" class="btn btn-warning">Changelog</button>
 						</a>
 					</div>
@@ -134,7 +142,7 @@
                     <p><h3><b>Old Versions Version</b></h3>
 				</div>
                 
-                <div class="col-md-8">
+                <div class="col-md-8" id="beta-1">
                     <h4><b>Beta-1 (For testing only)</b></h4>
 					<div class="btn-group btn-group-justified" role="group" aria-label="...">
 						<a href="builds/Redstonic-beta-1.jar" class="btn-group btn-group-lg" role="group">
@@ -144,7 +152,7 @@
 						<a class="btn-group btn-group-lg" role="group">
 							<button type="button" class="btn btn-info">1.7.10</button>
 						</a>
-						<a class="btn-group btn-group-lg" role="group">
+						<a class="btn-group btn-group-lg disabled" role="group">
 							<button type="button" class="btn btn-warning">Changelog</button>
 						</a>
 					</div>
