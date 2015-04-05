@@ -2303,4 +2303,10 @@ if (typeof jQuery === 'undefined') {
     })
   })
 
+  $('.subnav').affix({
+      offset: {
+        top: $('#navtop').height()
+      }
+  }); 
+  
 }(jQuery);
